@@ -1,10 +1,5 @@
 name: "Update AUR"
 
-on:
-  push:
-  schedule:
-    - cron: "0 0 * * 6"
-
 jobs:
   generate-matrix:
     runs-on: ubuntu-latest
